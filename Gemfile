@@ -1,4 +1,6 @@
 source :rubygems
 
-gem 'bart'
-gem 'twitter'
+group :development do
+  gem 'bart'
+  gem 'twitter'
+end
